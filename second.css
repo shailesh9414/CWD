@@ -1,0 +1,29 @@
+*{
+    font-family: cursive;
+    background-color: chocolate;
+    margin:10px;
+    padding: 2px;
+}
+
+h1{
+    color: rgb(161, 5, 26);
+    border: solid 2px rgb(0, 0, 0);
+}
+
+ul{
+    color: rgb(72, 0, 187);
+    width: 300px;
+}
+
+#firstpara{
+    color: rgb(49, 226, 43);
+}
+
+input[type="text"]{
+    color: rgb(122, 2, 92);
+}
+
+a[href="https://www.google.com"]:hover{
+    font-size: xx-large;
+    color: white;
+}
