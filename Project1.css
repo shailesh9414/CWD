@@ -103,6 +103,7 @@ a:hover{
 .description{
     margin: 30px 0px;
     line-height: 2rem;
+    color: rgb(73, 22, 65);
 }
 
 .showCVButton{
@@ -112,9 +113,74 @@ a:hover{
     padding: 10px 15px;
     border-radius: 5px;
     filter: drop-shadow(5px 5px 3px grey);
+    color: rgb(79, 8, 161);
 }
 
 .showCVButton:hover{
     background: linear-gradient(white, rgb(215,215,215));
-    color: rgb(224, 63, 63);
+    color: rgb(146, 22, 22);
 }
+
+.services{
+    /* margin: 80px; */
+    margin: 5rem;
+}
+
+.serviceText{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.TextSubHeading{
+    color: var(--primaryAccentColor);
+    letter-spacing: 0.4rem;
+    font-size: 1.25rem;
+}
+
+.TextHeading{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.serviceCards{
+    margin-top: 30px;
+    display: flex;   
+}
+
+.serviceCard{
+    background-color: var(--whiteColor);
+    border: 2px solid grey;
+    border-radius: 10px;
+    filter: drop-shadow(3px 3px 4px #aaaaaa);
+    margin: 15px;
+    padding: 40px;
+    height: auto;
+}
+
+.serviceCard:hover{
+    border: none;
+    filter: drop-shadow(3px 3px 8px grey);
+}
+
+.serviceTitle{
+    font-size: 1.5rem;
+}
+
+.serviceIcon{
+    color: rgb(209, 0, 0);
+    background-color:rgb(245, 210, 173);
+    width: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.serviceFeature{
+    margin-top: 10px;
+    font-size: 13.5px;
+}
+
+.serviceFeatureIcon{
+    margin-top: 10px;
+    font-size: 5px;
+}
+
