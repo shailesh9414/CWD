@@ -73,6 +73,10 @@ a:hover{
     padding: 20px;
 }
 
+.banner:hover{
+    background: linear-gradient(rgb(190, 100, 35), rgb(238, 177, 177), var(--primaryAccentColor));
+}
+
 .bannerLeft{
     width: 50%;
 }
@@ -161,6 +165,7 @@ a:hover{
 .serviceCard:hover{
     border: none;
     filter: drop-shadow(3px 3px 8px grey);
+    background: linear-gradient(rgb(117, 117, 192), rgb(204, 127, 140), rgb(233, 162, 111), grey);
 }
 
 .serviceTitle{
