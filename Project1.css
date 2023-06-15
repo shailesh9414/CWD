@@ -25,7 +25,7 @@ a {
 }
 
 a:hover{
-    color: var(--primaryAccentColor);
+    color: rgb(210, 30, 141);
 }
 
 .navigation{
@@ -66,7 +66,7 @@ a:hover{
 .banner{
     display: flex;
     height: 450px;
-    background: linear-gradient(45deg, var(--secondaryColor),var(--primaryAccentColor));
+    background: linear-gradient(45deg, var(--primaryAccentColor), rgb(224, 157, 110), rgb(134, 134, 134));
     filter: drop-shadow(0px 3px 4px grey); /*x, y, radius,color */
     justify-content: space-around;
     align-items: center;
@@ -116,4 +116,5 @@ a:hover{
 
 .showCVButton:hover{
     background: linear-gradient(white, rgb(215,215,215));
+    color: rgb(224, 63, 63);
 }
