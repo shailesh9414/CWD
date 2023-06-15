@@ -73,10 +73,6 @@ a:hover{
     padding: 20px;
 }
 
-.banner:hover{
-    background: linear-gradient(rgb(190, 100, 35), rgb(238, 177, 177), var(--primaryAccentColor));
-}
-
 .bannerLeft{
     width: 50%;
 }
@@ -141,15 +137,36 @@ a:hover{
     font-size: 1.25rem;
 }
 
+@keyframes colorAnimate1 {
+    0% {
+        font-size: medium;
+        color: rgb(229, 138, 138);
+    }
+    100% {
+        font-size: xx-large;
+        color: rgb(180, 85, 17);
+    }
+}
+
 .TextHeading{
     font-size: 2.5rem;
     font-weight: bolder;
+    animation: colorAnimate1 1s ease-in 0s infinite alternate;
 }
 
 .serviceCards{
     margin-top: 30px;
     display: flex;  
     justify-content: space-around; 
+}
+
+@keyframes colorAnimate {
+    0% {
+        background-color: rgb(195, 230, 179);
+    }
+    100% {
+        background-color: rgb(241, 234, 168);
+    }
 }
 
 .serviceCard{
@@ -160,6 +177,7 @@ a:hover{
     /* margin: 15px; */
     padding: 40px;
     height: auto;
+    animation: colorAnimate 1s ease-in 0s infinite alternate;
 }
 
 .serviceCard:hover{
@@ -189,4 +207,5 @@ a:hover{
     margin-top: 10px;
     font-size: 5px;
 }
+
 
